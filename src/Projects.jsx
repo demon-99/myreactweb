@@ -1,7 +1,8 @@
 import React from "react";
 import Sdata from "./Sdata";
 import Card from "./Card";
-import "./index.css"
+import "./index.css";
+
 
 const Projects = () => {
   return (

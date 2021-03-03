@@ -1,7 +1,8 @@
 import React from "react";
 import web from "../src/images/s1.jpg";
 import { NavLink } from "react-router-dom";
-import "./index.css"
+import "./index.css";
+import "./card.css";
 
 /*const Card = (props) => {
   return (
@@ -36,7 +37,7 @@ function Card(props){
         </span>
         <h3 className="card_title"></h3>
         <a href={props.link} target="_blank">
-          <button>Check now</button>
+          <button className="card_button">Check now</button>
         </a>
       </div>
     </div>
